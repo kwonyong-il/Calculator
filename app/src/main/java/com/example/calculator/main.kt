@@ -25,10 +25,27 @@ class Calculator() {
             "/" -> (num1 / num2).toString()
             "%" -> (num1 % num2).toString()
             else ->
-                "잘못된 접근입니다 다시 작성해주세요"
+                "잘못된 접근입니다 다시 작성해주세요" //
 
         }
-        println("결과: $result 입니다.")
+        println("결과: $result ")
     }
 }
 
+
+
+class AddOperation() {
+
+}
+class SubstractOperration() {
+
+}
+
+
+class MultiplyOperation() {
+
+}
+
+class DivideOperation() {
+
+}
