@@ -8,7 +8,7 @@ fun main() {
 
 class Calculator() {
     val addOperation = AddOperation()
-    val substractOperration = SubstractOperration()
+    val substractOperration = SubstractOperation()
     val multiplyOperation = MultiplyOperation()
     val divideOperation = DivideOperation()
 
@@ -40,30 +40,5 @@ class Calculator() {
     }
 
 }
-
-class AddOperation() {
-    fun add(num1: Int, num2: Int): Int {
-        return num1 + num2
-    }
-}
-
-class SubstractOperration() {
-    fun substract(num1: Int, num2: Int): Int {
-        return num1 - num2
-    }
-}
-
-class MultiplyOperation() {
-    fun multiply(num1: Int, num2: Int): Int {
-        return num1 * num2
-    }
-}
-
-class DivideOperation() {
-    fun divide(num1: Int, num2: Int): Int {
-        return num1 / num2
-    }
-}
-
 
 //이와 같은 짧은 코드에서는 효율적이지 못한 방법이라 생각이 들지만 회사 차원에서 하는 큰 프로젝트에서는 이런한 방식으로 코드를 짜야 관리하기가 용이해진다.지금부터 버릇을 들여서 해야한다.
