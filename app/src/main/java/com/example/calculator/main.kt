@@ -21,7 +21,6 @@ class Calculator() {
         println("두번째 수를 입력해주세요")
         var num2 = readLine()?.toInt()!!
 
-
         println("연산기호를 입력해주세요 (+, - , *, /,%) ")
         var operator = readLine()
 

@@ -1,7 +1,7 @@
 package com.example.calculator
 
-class AddOperation() {
-    fun add(num1: Int, num2: Int): Int {
-        return num1 + num2
+class AddOperation(val num1: Int, val num2: Int): AbstractOperation(){
+    override fun operate() {
+        (num1 + num2).toString()
     }
 }
